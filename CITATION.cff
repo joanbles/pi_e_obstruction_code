@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+
+message: >-
+If you use this repository, please cite it using the metadata
+from this file.
+
+title: >-
+pi_e_obstruction_code
+
+type: software
+
+authors:
+
+- family-names: Blanco Escalante
+  given-names: José Anselmo
+  alias: joanbles
+
+repository-code: https://github.com/joanbles/pi_e_obstruction_code
+
+url: https://github.com/joanbles/pi_e_obstruction_code
+
+keywords:
+
+- algebraic independence
+- transcendence theory
+- PSLQ
+- D-modules
+- Stokes constants
+- mpmath
+- pi
+- e
+- Fourier-Laplace transform
+- Picard-Fuchs
+
+license: MIT
+
+version: 1.0.0
+
+date-released: 2026-06-03
+
+abstract: >-
+Python scripts for high-precision numerical experiments related
+to the study of algebraic independence obstructions involving
+the Stokes constant C_Stokes. The repository currently includes
+PSLQ-based integer relation searches performed with arbitrary
+precision arithmetic using mpmath, together with reproducible
+computational tests accompanying ongoing mathematical research.
