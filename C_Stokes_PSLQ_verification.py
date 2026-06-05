@@ -1,5 +1,5 @@
 import mpmath
-mpmath.mp.dps = 300  # 300 dígitos de precisión
+mpmath.mp.dps = 600  # 600 dígitos de precisión
 
 # Cálculo de C_Stokes
 def integrando(t):
