@@ -5,7 +5,7 @@ mpmath.mp.dps = 600  # 600 dígitos de precisión
 def integrando(t):
     return mpmath.hyp2f1(0.5, 0.5, 1.0, t) * mpmath.exp(t)
 
-C = mpmath.quad(integrando, [0, 1], maxdegree=10)
+C = mpmath.quad(integrando, [0, 1], maxdegree=20)
 print(f"C_Stokes = {C}")
 
 # Valores de referencia
